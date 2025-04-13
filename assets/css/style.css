@@ -1,0 +1,140 @@
+header{
+    height: 16px;
+    font-family: "roboto", sans-serif;
+       
+}
+
+.navbar{
+    padding: 1%;
+    margin: 1px;
+    background-color: #404258;
+     
+    
+}
+
+section{
+background-color: #474E68;
+padding: 5%;
+margin: 1px;
+}
+
+footer{
+    background-color: #6B728E;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    margin: 1px;
+    display: block;
+    height: 70px;    
+}
+
+.navbar>.container-fluid{
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    background-color: #50577A;
+    color: white;   
+    padding-left: 271px;
+    padding-right: 271px;    
+    }
+
+.portafolio_titulo_Landing_Page{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px
+}
+
+.portafolio_titulo_Iguana_Page{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px
+}
+
+.portafolio_titulo_Cuppon{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.portafolio_Landing_Page{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.portafolio_Iguana_Page{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.portafolio_Cuppon{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    
+}
+
+.portafolio_descripcion_Landing_Page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.portafolio_descripcion_Iguana_Page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.portafolio_descripcion_Cuppon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 1.5em;    
+}
+
+.portafolio_Landing_Page_img-izquierda{
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+.portafolio_Iguana_Page_img-derecha{
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+.portafolio_Cuppon_img-izquierda{
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+
+
+.repo_btn{
+    background-color: black;
+    border: 0;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-size: 1.3em;
+    width: 200px;
+    height: 58px;
+    }
+
+
