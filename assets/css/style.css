@@ -126,15 +126,21 @@ article{
     margin-right: 100px;
 }
 
+/* Mejora en los botones */
+.repo_btn {
+    transition: all 0.3s ease;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #404258;
+    border: 1px solid #FFD43B;
+    border-radius: 5px;
+}
 
-.repo_btn{
-    background-color: black;
-    border: 0;
-    border-radius: 50px;
-    color: whitesmoke;
-    font-size: 1.3em;
-    width: 200px;
-    height: 58px;
-    }
+.repo_btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 212, 59, 0.3);
+    background-color: #FFD43B;
+    color: #404258;
+}
 
 
